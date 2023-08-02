@@ -52,6 +52,12 @@ public bool iswalking= false;
 public void DoAttack(){
 
 animator.SetTrigger("attack");
+}
+
+public void DoStab(){
+
+animator.SetTrigger("stab");
+
 
 }
 
